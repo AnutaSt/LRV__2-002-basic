@@ -37,7 +37,6 @@ class StudentController extends Controller
         $student->name = $request->name;
         $student->group_id = $group;
         $student->save();
-        var_dump($student);
         return redirect('/groups/' . $group);
     }
 

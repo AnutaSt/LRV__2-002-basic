@@ -38,9 +38,7 @@ class GroupController extends Controller
     public function store(Request $request)
     {
         $group = new Group;
-        $group->title = $request->title;
-        $group->is_active = $request->is_active;
-        $group->start_from = $request->start_from;
+        $group->fill($request->all());
         $group->save();
         return redirect()->action([GroupController::class, 'index']);
     }

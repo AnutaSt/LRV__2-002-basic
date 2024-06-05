@@ -15,8 +15,9 @@ return new class extends Migration
             $table->id();            
             $table->string('surname');
             $table->string('name');
-            $table->integer('group_id')->unsigned();
-            $table->foreign('group_id')->references('id')->on('groups');
+            // $table->integer('group_id')->unsigned();
+            // $table->foreign('group_id')->references('id')->on('groups');
+            $table->foreignId('group_id')->constrained();
             $table->timestamps();            
         });
     }

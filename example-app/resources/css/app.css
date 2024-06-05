@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: transparent;
+}
+.header {
+    padding: 30px;
+    text-align: center;
+    background-color: #ddd;
+}
+
+.header h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+.menu {
+    width: 100%;
+    background-color: #eee;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.menu-item {
+    background-color: #424242;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.menu-item:hover {
+    background-color: #aaa;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.btn-box {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: end;
+}
+.btn {
+    border: 1px solid #424242;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color: #eee;
+}
+.content {
+    width: 100%;
+    padding: 0 0 20px;
+}
+.content h5 {
+    padding: 20px 0 15px;
+    font-size: 18px;
+}
+.group-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #aaa;
+}
+.group-item:first-child {
+    border-top: 1px solid #aaa;
+}
+.group-item:hover {
+    background-color: #eee;
+}
+.header-item {
+    background-color: #eee;
+    cursor: auto;
+}
+.group-item_el {
+    width: calc((100% - 30px) / 5);
+    text-align: center;
+}
+.group-item_el:first-child {
+    width: 30px;
+}
+.create-group {
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.create-group input[type='text']{
+    width: 300px;
+    padding: 5px;
+}
+.create-group label{
+
+}
+.create-group input[type='date']{
+    width: 300px;
+    padding: 5px;
+}
+.create-group button {
+    width: 300px;
+    padding: 5px;
+}
+.student-group_id {
+    display: none;
+}
