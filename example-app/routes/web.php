@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/groups');
 });
 
 Route::get('/groups', [\App\Http\Controllers\GroupController::class, 'index']);
