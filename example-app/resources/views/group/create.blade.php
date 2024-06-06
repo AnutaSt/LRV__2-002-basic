@@ -13,7 +13,7 @@
             </label>
             <label>
                 <input type="checkbox" name="is_active"/>
-                <span>начала ли группа обучение?</span>
+                <span>Группа начала обучение?</span>
             </label>
             <label>
                 <p>Начало обучения</p>

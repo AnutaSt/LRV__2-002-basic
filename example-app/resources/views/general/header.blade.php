@@ -9,6 +9,6 @@
 </head>
 <body>
     <header class="header">
-        <h3>Онлайн-школа "Школа"</h3>
+        <h3>Ирутский энергетический колледж"</h3>
     </header>
     <div class="container">

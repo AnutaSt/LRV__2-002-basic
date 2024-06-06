@@ -1,4 +1,4 @@
 </div>
-<footer class="footer">Я футер</footer>
+<footer class="footer">Энергия - наша работа!</footer>
 </body>
 </html>
